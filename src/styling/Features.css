@@ -1,0 +1,26 @@
+.feature-card {
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+
+  .feature-icon {
+    width: 60px;
+   
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #FFFFFF;
+  }
+  
+  .custom-hr {
+    height: 2px !important;
+    background-color: #FF3E54 !important;
+    border: none !important;
+    width: 50% !important;
+    margin-left: 0 !important;
+  }
+  

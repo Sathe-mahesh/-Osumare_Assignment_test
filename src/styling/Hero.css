@@ -1,0 +1,163 @@
+.hero-section {
+    background-color: #F7F7FB;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .hero-title {
+    color: #0E1F51;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .hero-subtext {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .hero-buttons .btn {
+    font-size: 14px;
+  }
+  
+
+
+
+
+  /* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: #170F49;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #6F6C90;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #170F49;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input.error {
+  border-color: #FF3E54;
+}
+
+.error-message {
+  color: #FF3E54;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.submit-btn {
+  background-color: #FF3E54;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.thank-you-message {
+  text-align: center;
+  padding: 2rem;
+}
+
+.thank-you-message h3 {
+  color: #170F49;
+  margin-bottom: 1rem;
+}
+
+.thank-you-message p {
+  color: #6F6C90;
+}
+
+/* Table Styles */
+.submissions-table {
+  margin-top: 3rem;
+}
+
+.submissions-table h3 {
+  color: #170F49;
+  margin-bottom: 1.5rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  color: #170F49;
+  padding: 1rem;
+  text-align: left;
+}
+
+.table td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  color: #6F6C90;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 95%;
+    padding: 1.5rem;
+  }
+  
+  .table {
+    display: block;
+    overflow-x: auto;
+  }
+}

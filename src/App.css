@@ -1,0 +1,8 @@
+.logo-img {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: contain !important;
+    margin-right: 8px !important;
+    vertical-align: middle !important;
+  }
+  

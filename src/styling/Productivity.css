@@ -1,0 +1,16 @@
+.productivity-section {
+    background-color: #F7F7FB; 
+  }
+  
+  .productivity-image-wrapper {
+    max-width: 1170px;         
+    width: 100%;
+    padding: 0 15px;           
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
