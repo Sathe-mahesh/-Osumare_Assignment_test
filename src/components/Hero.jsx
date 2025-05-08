@@ -17,7 +17,7 @@ const Hero = () => {
       timestamp: new Date().toLocaleString(),
     };
     setSubmissions([...submissions, newSubmission]);
-   // setShowModal(false);
+    // setShowModal(false);
     console.log('Submission received:', newSubmission); 
   };
 
@@ -30,7 +30,7 @@ const Hero = () => {
             style={{
               fontFamily: "Roboto",
               fontWeight: 700,
-              fontSize: "50px",
+              fontSize: "clamp(32px, 5vw, 50px)",
               color: "#170F49",
             }}
           >
@@ -44,7 +44,7 @@ const Hero = () => {
             style={{
               fontFamily: "Roboto",
               fontWeight: 400,
-              fontSize: "18px",
+              fontSize: "clamp(16px, 2.5vw, 18px)",
               color: "#6F6C90",
             }}
           >
